@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercice 3</title>
+</head>
+
+<body>
+    <h1> Trouver des universités </h1>
+
+    <select name="Pays" id="selecteur-pays">
+        <option value="France"> France </option>
+        <option value="Allemagne"> Allemagne </option>
+        <option value="Andorre"> Andorre </option>
+    </select>
+
+    <button id="button-select"> Envoyer la demande </button>
+
+    <p id="nombre-Universites"> Nombre d'universités pour la pays séléctionné : </p>
+
+    <form>
+        <label for="filtre"> Filtre: </label>
+        <input type="text" id="filtre" name="filtre">
+    </form>
+
+    <p id="message-d-erreur"> </p>
+
+    <div id="liste-universites"></div>
+
+    <script src="exercice3.js"> </script>
+</body>
+
+</html>
